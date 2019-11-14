@@ -1,4 +1,4 @@
-FROM openjdk:8u121-jdk-alpine AS builder
+FROM openjdk:8u121-jdk-alpine
 WORKDIR /workspace/app
 
 COPY .mvn .mvn
